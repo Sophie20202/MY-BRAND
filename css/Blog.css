@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color:#094193;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+   }
+   .logo{
+       position: relative;
+       font-size: 40px;
+       text-decoration: none;
+       color:orange;
+       font-weight: 600;
+    }
+   .navbar a{
+       font-size: 20px;
+       color:#fff;
+       text-decoration: none;
+       font-weight: 500; 
+       margin-left: 35px;
+       transition: .5s;  
+   }
+   .navbar a:hover{
+       color:orange;
+   }
+   .home{
+    padding: 50px 10%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.home-content{
+    max-width: 600px;
+    margin-top: 50px;
+
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+.home-content p{
+    letter-spacing: 1.5px;
+}
+.comment a{
+    display: flex;
+    flex-direction: column;
+    color: white;
+     text-decoration: none; 
+     margin-left: 180px;
+     column-gap: 20px;  
+} 
+.comment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  margin-left: 180px;
+
+}
+ img{
+    object-fit: cover;
+     border-radius: 20px; 
+    object-position: center;
+    width: 400px;
+    height: 500px;
+}  
+.inspire{
+  color: orange;
+  margin-right: 50px;
+}
+.btn{
+    display: inline-block; 
+    padding:12px 20px;
+    background: #FF9900;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color:white;
+    letter-spacing: 2px;
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+

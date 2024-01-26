@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color:#094193;
+    width: 100%;
+}
+.header{
+ display: flex;
+ justify-content: space-between;
+ padding: 20px 10%;
+}
+.logo{
+    position: relative;
+    font-size: 40px;
+    text-decoration: none;
+    color:orange;
+    font-weight: 600;
+ }
+.navbar a{
+    font-size: 20px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 500; 
+    margin-left: 35px;
+    transition: .5s;  
+}
+.navbar a:hover{
+    color:orange;
+}
+.home{
+    
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.home-content{
+    max-width: 80%;
+    height: 80vh;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+ img{
+    object-fit: cover;
+    border-radius: 100px;
+    border: 20px #FF9900 solid;
+    object-position: center;
+    width: 300px;
+    height: 400px;
+    transform: rotateY(180deg);
+ }
+
+    .image{
+    object-position: center;
+        width: 300px;
+        height: 400px;
+        position: relative; 
+    } 
+
+.home-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+} 
+.home-icons a{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: orange;
+     text-decoration: none;   
+}
+.Biographie{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding-left: 120px;
+}
+.Biographie p{
+    font-size: large;
+    line-height: 1.5;   
+}
+.head{
+    color: #FF9900;
+    
+}
+.Biographie h1{
+    text-align: center;
+}
+.btn a:hover{
+    background-color: #FF9900;
+    color: black;
+}
+.btn{
+    padding: 15px 50px; 
+    background: #FF9900;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    color:white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;  
+}
