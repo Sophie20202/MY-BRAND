@@ -1,113 +1,105 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+.about {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
 }
-body{
-    background-color:#094193;
-    width: 100%;
+.about-content {
+  max-width: 80%;
+  height: 80vh;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
 }
-.header{
- display: flex;
- justify-content: space-between;
- padding: 20px 10%;
+img {
+  object-fit: cover;
+  border-radius: 100px;
+  border: 10px #ff9900 solid;
+  object-position: center;
+  width: 200px;
+  height: 350px;
+  transform: rotateY(180deg);
+  margin-left: -60px; 
 }
-.logo{
-    position: relative;
-    font-size: 40px;
-    text-decoration: none;
-    color:orange;
-    font-weight: 600;
- }
-.navbar a{
-    font-size: 20px;
-    color:#fff;
-    text-decoration: none;
-    font-weight: 500; 
-    margin-left: 35px;
-    transition: .5s;  
-}
-.navbar a:hover{
-    color:orange;
-}
-.home{
-    
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    color: #fff;
-}
-.home-content{
-    max-width: 80%;
-    height: 80vh;
-    display: flex;
-    margin: 0 auto;
-    flex-direction: row;
-    align-items: center;
-    gap: 50px;
-}
- img{
-    object-fit: cover;
-    border-radius: 100px;
-    border: 20px #FF9900 solid;
-    object-position: center;
-    width: 300px;
-    height: 400px;
-    transform: rotateY(180deg);
- }
 
-    .image{
-    object-position: center;
-        width: 300px;
-        height: 400px;
-        position: relative; 
-    } 
+.image {
+  object-position: center;
+  position: relative;
+  margin-bottom: 30px;
 
-.home-icons{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-} 
-.home-icons a{
-    width:30px;
-    height: 30px;
-    border-radius: 50%;
-    font-size: 20px;
-    color: orange;
-     text-decoration: none;   
 }
-.Biographie{
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-    padding-left: 120px;
+
+.about-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 90px;
+  height: 90%;
 }
-.Biographie p{
-    font-size: large;
-    line-height: 1.5;   
+.about-icons a {
+  width: 30px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: orange;
+  text-decoration: none;
 }
-.head{
-    color: #FF9900;
-    
+.Biographie {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding-left: 120px;
+  width: 80%;
+  margin-bottom: 50px;
 }
-.Biographie h1{
-    text-align: center;
+.Biographie p {
+  font-size: large;
+  line-height: 1.5;
+  width: 65%;
+ margin-left: 100px;
+
 }
-.btn a:hover{
-    background-color: #FF9900;
-    color: black;
+.head {
+  color: #ff9900;
 }
-.btn{
-    padding: 15px 50px; 
-    background: #FF9900;
-    border-radius: 50px;
-    font-size: 20px;
-    font-weight: 700;
-    color:white;
-    letter-spacing: 1px;
-    text-decoration: none;
-    text-align: center;  
+.Biographie h1 {
+  text-align: center;
 }
+.btn:hover {
+  background-color: #ff9900;
+  color: black;
+}
+.btn {
+  padding: 8px 35px;
+  background: #ff9900;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-align: center;
+
+  
+}
+.one {
+  border-left: 2px solid white;
+  height: 250px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+.two {
+  border-left: 2px solid white;
+  height: 100px;
+  margin-left: 10px;
+ 
+}
+.copy {
+  color: #fff; 
+  padding-bottom: 120px;
+  margin-left: 6px; 
+}
+

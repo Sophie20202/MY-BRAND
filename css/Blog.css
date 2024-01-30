@@ -1,96 +1,130 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
 }
-body{
-    background-color:#094193;
-    width: 100%;
+body {
+  background-color: #094193;
+  width: 100%;
 }
-.header{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 10%;
-   }
-   .logo{
-       position: relative;
-       font-size: 40px;
-       text-decoration: none;
-       color:orange;
-       font-weight: 600;
-    }
-   .navbar a{
-       font-size: 20px;
-       color:#fff;
-       text-decoration: none;
-       font-weight: 500; 
-       margin-left: 35px;
-       transition: .5s;  
-   }
-   .navbar a:hover{
-       color:orange;
-   }
-   .home{
-    padding: 50px 10%;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    color: #fff;
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10%;
+  align-items: center;
 }
-.home-content{
-    max-width: 600px;
-    margin-top: 50px;
-
-}
-.home-content h1{
-    font-size: 56px;
-    font-weight: 700;
-    margin: -3px 0;
-}
-.home-content p{
-    letter-spacing: 1.5px;
-}
-.comment a{
-    display: flex;
-    flex-direction: column;
-    color: white;
-     text-decoration: none; 
-     margin-left: 180px;
-     column-gap: 20px;  
-} 
-.comment{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  margin-left: 180px;
-
-}
- img{
-    object-fit: cover;
-     border-radius: 20px; 
-    object-position: center;
-    width: 400px;
-    height: 500px;
-}  
-.inspire{
+.logo {
+  position: relative;
+  font-size: 40px;
+  text-decoration: none;
   color: orange;
-  margin-right: 50px;
+  font-weight: 600;
 }
-.btn{
-    display: inline-block; 
-    padding:12px 20px;
-    background: #FF9900;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: 700;
-    color:white;
-    letter-spacing: 2px;
-    text-decoration: none;
-    width: 200px;
-    text-align: center;
-    margin-top: 50px;
-    
+.navbar a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: 0.5s;
+}
+.navbar a:hover {
+  color: orange;
+}
+.blogging {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.blog-content {
+  width: 100%;
+  height: 80vh;
+  align-items: center;
+  gap: 50px;
 }
 
+.blog-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.blog-icons a {
+  width: 30px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: orange;
+  text-decoration: none;
+}
+.one {
+  border-left: 2px solid white;
+  height: 220px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+.two {
+  border-left: 2px solid white;
+  height: 100px;
+  margin-left: 10px;
+}
+.copy {
+  color: #fff;
+  padding-bottom: 120px;
+  margin-left: 6px;
+}
+.blog {
+  width: 80%;
+  padding: 50px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.blog-content h1 {
+  font-size: 56px;
+  font-weight: 700;
+  margin: -3px 0;
+}
+.blog-content p {
+  letter-spacing: 1.5px;
+}
+.comment a {
+  text-decoration: none;
+}
+.write {
+  color: orange;
+}
+.view {
+  color: orange;
+}
+.comment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+img {
+  object-fit: cover;
+  object-position: center;
+  width: 300px;
+  height: 400px;
+}
+.inspire {
+ color: orange;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 50px;
+  background: #ff9900;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-align: center;
+}

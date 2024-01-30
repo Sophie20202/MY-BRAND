@@ -1,50 +1,4 @@
-
- * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 3px;
-  font-family: Poppins;
-}
-body {
-  background: #094193;
-  width: 100%;
-}
-nav {
-  width: 100%;
-  margin-right: 50px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: auto;
-}
-nav .logo {
-  color: #f90;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: normal;
-}
-nav .nav-items {
-  display: flex;
-  justify-content: space-between;
-}
-nav .nav-items > li {
-  list-style: none;
-}
-nav .nav-items li a {
-  text-decoration: none;
-  color: #fff;
-  text-align: center;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 50px;
-  padding: 10px;
-}
-nav .nav-items li a:hover {
-  color: #f90;
-} 
-
+ 
 section {
   width: 80vw;
   margin: 0 auto;
@@ -110,7 +64,7 @@ section .content .contact-section h2{
   color: #FF9900;
 }
 
-.form-section {
+/* .form-section {
   width: 50%;
   margin-left: 10%;
   text-align: center;
@@ -187,11 +141,11 @@ section .content .contact-section h2{
   font-weight: 700;
   line-height: normal;
 }
-
+ */
 
 /* login page */
 
-.form-part{
+/* .form-part{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -247,4 +201,4 @@ section .content .contact-section h2{
   font-weight: 700;
   line-height: normal;
   align-self: center;
-}
+} */

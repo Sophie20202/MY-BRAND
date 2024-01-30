@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+  }
+  body {
+    background-color: #094193;
+    width: 100%;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    align-items: center;
+  }
+  .logo {
+    position: relative;
+    font-size: 40px;
+    text-decoration: none;
+    color: orange;
+    font-weight: 600;
+  }
+  .navbar a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.5s;
+  }
+  .navbar a:hover {
+    color: orange;
+  }
+.contact-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    padding-left:  150px;
+    margin-top: 50px;
+  }
+  .contact-icons a {
+    width: 30px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: orange;
+    text-decoration: none;
+  }
+  .one {
+    border-left: 2px solid white;
+    height: 220px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+  }
+  .two {
+    border-left: 2px solid white;
+    height: 100px;
+    margin-left: 10px;
+   
+  }
+  .copy {
+    color: #fff; 
+    padding-bottom: 120px;
+    margin-left: 6px; 
+  }
+  .phone-number{
+    display: flex;
+    align-items: center;
+    /* gap: 1rem; */
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  h2{
+    /* margin-bottom: 50px; */
+    color: orange;
+    text-align: center;
+    padding: 20px;
+  }
+  .phone-number img{
+    width: 1.5rem;
+  }
+  
+  .mail-me{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 30px;
+    color: #fff;
+  
+  }
+  
+  .mail-me img{
+    width: 1.5rem;
+  }
+  .adress {
+    font-family: poppins;
+    font-size: 20px;
+    line-height: 48px;
+    color: #fff;
+  }
+  
+  .adress span {
+    color: #FF9900;
+  }
+  .contact-general{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+.login-container {
+  background-color: #333;
+  border-radius: 8px;
+  padding: 50px;
+  width: 400px;
+  height: 300px;
+} 
+.form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-bottom: 200px;
+  margin-top: 50px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: inline;
+  margin-bottom: 5px;
+  font-weight: bold;
+  
+}
+
+.form-group input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.form-group textarea {
+  width: 55%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin-left: 70px;
+}
+
+.form-group button {
+  padding: 10px 60px;
+  background-color:orange;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 70px;
+}
+
+
