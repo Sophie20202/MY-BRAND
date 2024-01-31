@@ -32,11 +32,21 @@ body {
 .navbar a:hover {
   color: orange;
 }
-.blogging {
+/* .blogging {
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
+} */
+.about-blog{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+.active {
+  color:orange !important;
 }
 .blog-content {
   width: 100%;
@@ -49,6 +59,7 @@ align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 150px;
 }
 .blog-icons a {
   width: 30px;

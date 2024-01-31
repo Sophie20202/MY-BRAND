@@ -21,6 +21,9 @@ body {
   color: orange;
   font-weight: 600;
 }
+.active {
+  color:orange !important;
+}
 .navbar a {
   font-size: 20px;
   color: #fff;
