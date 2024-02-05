@@ -5,7 +5,7 @@ form.addEventListener("submit", function(e){
   e.preventDefault();
 // function blog(){
     var title= document.getElementById('title').value;
-    var  articleName= document.getElementById('articleName').value;
+    // var  articleName= document.getElementById('articleName').value;
     var  articleContent= document.getElementById('articleContent').value;
     var fileInput=document.getElementById('picture');
 
@@ -20,7 +20,7 @@ form.addEventListener("submit", function(e){
     var object = {
   id: new Date().getTime(), 
       title:title,
-      articleName:articleName,
+      // articleName:articleName,
       articleContent:articleContent
     };
 
@@ -43,7 +43,7 @@ form.addEventListener("submit", function(e){
 
     window.localStorage.setItem("articles", JSON.stringify(storeblog));
     processImage(object.id,fileInput)
-    window.location.href="adminpanel.html"
+    window.location.href="adminpanel.html";
      
 })
 })

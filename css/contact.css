@@ -81,6 +81,9 @@
   .phone-number img{
     width: 1.5rem;
   }
+  .active {
+    color:orange !important;
+  }
   
   .mail-me{
     display: flex;
