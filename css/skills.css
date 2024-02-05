@@ -89,18 +89,20 @@
     text-align: center;
     padding: 10px;
     width: 80%;
+
   }
   
   .skills-container {
     display: flex;
     flex-wrap: wrap; 
     justify-content: start;
-    gap: 10px;
-      background:gray;
+     gap: 10px; 
+      background:#fff;
       border-radius: 10px;
-      margin-bottom: 150PX;
+      margin-bottom: 90PX;
      
   }
+
   .active {
     color:orange !important;
   }
@@ -123,6 +125,7 @@
       justify-content: space-between;
       align-items: center;
       margin-bottom: 5px;
+  
       
   }
   input ,p{

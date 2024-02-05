@@ -57,31 +57,34 @@
                 <p class="adress"><span>Address: </span>KG314 St, Kigali, Remera</p>
               </div>
              </div>
-          <div class="form">
+          <div class="form" >
             <h2>Drop an Equiry</h2>
             <div class="login-container">
-              <form class="login-form">
-                  <div class="form-group">
-                      <label for="username">Name:</label>
-                      <input type="text" id="username" name="username" required>
-                  </div>
-                  <div class="form-group">
-                      <label for="password">Email:</label>
-                      <input type="password" id="password" name="password" required>
-                  </div>
-                  <div class="form-group">
-                      <textarea id="message" name="message" rows="4" required></textarea>
-                  </div>
-                  <div class="form-group">
-                      <button type="submit">submit</button>
-                    </div>
-                  </div>
-              </form>
+              <div id="messageError" class="error"></div>
+              <form class="" id="form" name="custom_form" onsubmit="validateForm()"; >
+                <div class="input-control">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" >
+                <div id="nameError" class="error"></div>
+               </div>
+                <div class="input-control">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" >
+                <div id="email" class="error"></div>
+               </div>
+               <div class="input-control">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" ></textarea>
+                </div>
+                <input type="submit" value="Submit"  >
+            </form>
+            </div>
             </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="Javascripts/Contact.js"></script>
   </body>
 </html> 

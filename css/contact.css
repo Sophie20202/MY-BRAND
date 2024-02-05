@@ -104,67 +104,68 @@
   .adress span {
     color: #FF9900;
   }
-  .contact-general{
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #094193;
+}
+
+form {
+    width: 500px;
+    height: 350px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px bold;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: orange;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+#messageError{
+  color: red;
+  font-size: 14px;
+  margin:0px;
+ transition-duration: 0.15s;
+}
+
+/* Media Queries for responsiveness
+@media screen and (max-width: 600px) {
+    form {
+        max-width: 100%;
+    } 
+  }*/
+
+   .contact-general{
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
-    align-items: center;
+    align-items: center; 
   }
-.login-container {
-  background-color:grey;
-  border-radius: 8px;
-  padding: 50px;
-  width: 400px;
-  height: 300px;
-} 
-.active {
-  color:orange !important;
-}
-.form{
-  display: flex;
-  flex-direction: column;
-  margin-left: 100px;
-  margin-bottom: 200px;
-  margin-top: 50px;
-}
-.login-form {
-  display: flex;
-  flex-direction: column;
-}
-
-.form-group {
-  margin-bottom: 10px;
-}
-
-.form-group label {
-  display: inline;
-  margin-bottom: 5px;
-  font-weight: bold;
-  color: #fff;
-  
-}
-
-.form-group input {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-.form-group textarea {
-  width: 55%;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-  margin-left: 70px;
-}
-
-.form-group button {
-  padding: 10px 60px;
-  background-color:orange;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-left: 70px;
-}
+ 
 
 
