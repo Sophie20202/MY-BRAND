@@ -4,7 +4,7 @@ function validateForm() {
     var password = document.getElementById('password').value;
     if (username === 'sofidele' && password === 'sophie1992@') {
       alert('Login successfull!');
-      window.location.href="blog.html";
+      window.location.href="adminpanel.html";
     } else {
       alert('Invalid username or password. Please try again.');
     }
