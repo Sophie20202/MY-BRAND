@@ -25,7 +25,7 @@ function validateForm(){
 }
   // If all validations pass, save data to local storage
   var contactData = {
-    name: name,
+    name:name,
     email: email,
     message: message,
   };
