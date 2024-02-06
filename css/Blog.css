@@ -86,8 +86,8 @@ width: 100%;
   margin-left: 6px;
 }
 .blog {
-  width: 80%;
-  padding: 50px 10%;
+  width: 90%;
+  padding: 5px 5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -123,10 +123,35 @@ img {
   object-position: center;
   width: 300px;
   height: 400px;
+ 
 }
 .inspire {
  color: orange;
 }
+.Inspiration{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+}
+.paragraph{
+  width:50%;
+  height: 50%;
+}
+.paragraph h1{
+  padding: 50px;
+  color: orange;
+}
+.Inspiration img{
+  width: 100%;
+  padding-top: 100px;
+}
+span{
+ margin: 50px;
+  color: #fff;
+  display: none;
+}
+
 .btn {
   display: inline-block;
   padding: 12px 50px;

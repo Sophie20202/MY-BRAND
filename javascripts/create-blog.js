@@ -8,6 +8,7 @@ form.addEventListener("submit", function(e){
     // var  articleName= document.getElementById('articleName').value;
     var  articleContent= document.getElementById('articleContent').value;
     var fileInput=document.getElementById('picture');
+    var description=document.getElementById('description').value;
 
    if(title === "" &&  articleName=== ""){
     alert('Please enter both title and content of blog.');
@@ -21,7 +22,9 @@ form.addEventListener("submit", function(e){
   id: new Date().getTime(), 
       title:title,
       // articleName:articleName,
-      articleContent:articleContent
+      articleContent:articleContent,
+      description:description
+
     };
 
     // window.localStorage.setItem("bject", JSON.stringify(object));
@@ -43,7 +46,7 @@ form.addEventListener("submit", function(e){
 
     window.localStorage.setItem("articles", JSON.stringify(storeblog));
     processImage(object.id,fileInput)
-    window.location.href="adminpanel.html";
+    window.location.href="blog.html";
      
 })
 })
