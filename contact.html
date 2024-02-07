@@ -61,7 +61,7 @@
             <h2>Drop an Equiry</h2>
             <div class="login-container">
               <div id="messageError" class="error"></div>
-              <form class="" id="form" name="custom_form" onsubmit="validateForm()"; >
+              <form class="" id="form" name="custom_form" onsubmit="validateForm()" >
                 <div class="input-control">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" >
@@ -76,7 +76,7 @@
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="4" ></textarea>
                 </div>
-                <input type="submit" value="Submit"  >
+                <input type="button" value="Submit"  onclick="validateForm()" >
             </form>
             </div>
             </div>

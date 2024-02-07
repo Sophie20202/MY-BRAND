@@ -35,6 +35,7 @@ form.addEventListener("submit", function(e){
         reader.onload = function (e) {
           const articles = JSON.parse(localStorage.getItem("articles")) || [];
           const article = articles.find((article) => article.id === id);
+          
           article.image = e.target.result;
           localStorage.setItem("articles", JSON.stringify(articles));
         };
@@ -45,7 +46,7 @@ form.addEventListener("submit", function(e){
     storeblog.push(object);
 
     window.localStorage.setItem("articles", JSON.stringify(storeblog));
-    processImage(object.id,fileInput)
+    processImage(object.id,fileInput);
     window.location.href="blog.html";
      
 })

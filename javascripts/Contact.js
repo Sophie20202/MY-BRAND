@@ -31,7 +31,11 @@ function validateForm(){
   };
 
   // Convert the data to a JSON string and save it to local storage
-  localStorage.setItem("contactData", JSON.stringify(contactData));
+  var storeblog=JSON.parse(localStorage.getItem("articles")) || [];
+  storeblog.push(contactData);
+
+  window.localStorage.setItem("articles", JSON.stringify(storeblog));
+  processImage(contactData.id,inputvalue)
 
   // You can add code to display a success message or redirect the user here
   console.log("Form submitted successfully");
