@@ -36,7 +36,7 @@
   var storeblog=JSON.parse(localStorage.getItem("articles")) || [];
   storeblog.push(contactData);
 
-  window.localStorage.setItem("articles", JSON.stringify(storeblog));
+  window.localStorage.setItem("articles", JSON.stringify(contactData));
   // processImage(contactData.id,inputvalue)
 
   // You can add code to display a success message or redirect the user here
