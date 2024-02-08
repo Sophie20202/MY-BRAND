@@ -13,7 +13,7 @@ function validateForm(){
   }
 
   if (email===""||email.length<6) {
-    errorMessage.innerHTML = "please enter a valid email address";
+    alert("please enter a valid email address");
     return false;
   }
   if (message.length <=20) {
