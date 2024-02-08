@@ -35,7 +35,7 @@ function validateForm(){
   storeblog.push(contactData);
 
   window.localStorage.setItem("articles", JSON.stringify(storeblog));
-  processImage(contactData.id,inputvalue)
+  // processImage(contactData.id,inputvalue)
 
   // You can add code to display a success message or redirect the user here
   console.log("Form submitted successfully");
