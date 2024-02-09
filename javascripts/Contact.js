@@ -34,7 +34,7 @@
 
   // Convert the data to a JSON string and save it to local storage
   var storeblog=JSON.parse(localStorage.getItem("articles")) || [];
-  storeblog.push(contactData);
+  storeblogtoreblog.push("contactData")
 
   window.localStorage.setItem("articles", JSON.stringify(artticles));
   // processImage(contactData.id,inputvalue)
