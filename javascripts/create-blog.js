@@ -48,3 +48,7 @@ window.addEventListener("load", function () {
     window.location.href = "blog.html";
   });
 });
+button.addEventListener("click", (e)=>{
+  e.preventDefault()
+  update()
+} )
