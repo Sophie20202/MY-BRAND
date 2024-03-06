@@ -20,8 +20,8 @@ fetch('https://backend-jdw6.onrender.com/greet/v1/blog')
                                     <p>${object.message}</p>
                                     <a href="#" class="btn" onclick="display()">Read more</a>
                                 </div>
+                                
                                 <div class="photo">
-                                <img src="${object.image}" alt=""/>
                                 </div>
                             </div> 
                         </div>
