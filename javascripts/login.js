@@ -1,4 +1,4 @@
-let link = "http://localhost:5000/greet/v1/user/login"
+let link = "https://backend-jdw6.onrender.com/greet/v1/user/login"
 function validateForm(event) {
   event.preventDefault();
 
@@ -22,11 +22,5 @@ function validateForm(event) {
       }
     })
     .catch(error => console.log(error))
-  // if (username === 'sofidele12@gmail.com' && password === '12345') {
-  //   alert("Login successful!");
-  //   window.location.href="adminpanel.html";
-
-  // } else {
-  //   alert("Invalid username or password. Please try again.");
-  // }
+  
 }

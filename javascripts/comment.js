@@ -1,4 +1,4 @@
-let link = "https://backend-jdw6.onrender.com/greet/v1/comment"
+let link = "http://localhost:5000/greet/v1/comment"
 function validateForm(event) {
   event.preventDefault();
 
@@ -16,7 +16,7 @@ function validateForm(event) {
       console.log(data)
       if(data.token){
         localStorage.setItem("token",data.token)
-        window.location.href="adminpanel.html"
+        // window.location.href="adminpanel.html";  
       }else{
         alert(data.message)
       }

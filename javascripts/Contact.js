@@ -1,5 +1,5 @@
 
-let link = "http://localhost:5000/greet/v1/contact"
+let link = "https://backend-jdw6.onrender.com/greet/v1/contact"
 function validateForm(event) {
   event.preventDefault();
 var name=document.getElementById('name')
