@@ -4,7 +4,16 @@ window.addEventListener("load", function () {
   const form = document.getElementById("articleForm");
   form.addEventListener("submit", function (e) {
     e.preventDefault();
-    
+    fetch('https://backend-jdw6.onrender.com/greet/v1/blog')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then(blogDataArray => {
+        console.log(blogDataArray)
+    })
     var title = document.getElementById("title").value;
     var articleContent = document.getElementById("articleContent").value;
     var fileInput = document.getElementById("picture");
